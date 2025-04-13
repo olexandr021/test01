@@ -1,0 +1,8 @@
+python-dotenv
+PyYAML
+requests
+websocket-client
+streamlit
+telebot
+pandas
+matplotlib

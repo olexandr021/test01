@@ -1,0 +1,22 @@
+{
+    "bot": {
+        "active_mode": "TestNet",
+        "commission_maker": 0.075,
+        "commission_taker": 0.075,
+        "kline_interval": "1m",
+        "position_size_percent": 10.0,
+        "selected_strategy": "MovingAverageCrossoverStrategy",
+        "stop_loss_percent": 0.5,
+        "take_profit_percent": 1.0,
+        "telegram_chat_id": "",
+        "telegram_enabled": false,
+        "telegram_token": "",
+        "trading_symbol": "BTCUSDT"
+    },
+    "strategies": {
+        "MovingAverageCrossoverStrategy": {
+            "fast_period": 12,
+            "slow_period": 26
+        }
+    }
+}
